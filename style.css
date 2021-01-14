@@ -1,0 +1,45 @@
+*{
+    box-sizing: border-box;
+    font-family: 'Times New Roman', Times, serif;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    height: 100vh;
+    background: linear-gradient(rgb(47,150,163), rgb(48,62,143));
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    color: white;
+}
+
+h1 {
+    font-weight: normal;
+    font-size: 4rem;
+    margin-top: -10rem;
+    text-align: center;
+}
+
+.countdown-container {
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 5rem;
+    align-items: center;
+    justify-content: center;
+}
+
+.big-text {
+    font-size: 6rem;
+    line-height: 1;
+    margin: 0 2rem;
+}
+
+.countdown-el {
+    text-align: center;
+}
+
+.countdown-el span {
+    font-size: 1.5rem;
+}
